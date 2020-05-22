@@ -1,0 +1,236 @@
+body {
+  background-color: #eefafa;
+  color: #46B7B9;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+/* HEADER */
+.header {
+  position: relative;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.feuille {
+  width: 20%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.arbre {
+  width: 22%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+@media (max-width:900px) {
+  .arbre {display:none;}
+}
+
+.beach {
+  width: 100%;
+  position: relative;
+  right: 0;
+}
+
+h1 {
+  margin: 0 auto;
+  padding-top: 170px;
+  font-size: 6.5rem;
+  color: #e34b5d;
+  font-weight: 400;
+  font-family: 'Nothing You Could Do', fantasy;
+}
+
+h3 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #F77e7C;
+  font-weight: 300;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2rem;
+}
+
+/* MISE EN FORME */
+.titre-section {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  color: #e34b5d;
+  font-family: 'Handlee', fantasy;
+  font-size: 3.5rem;
+}
+
+.intersection {
+  text-align: center;
+}
+
+.intersection-img {
+  width: 8%;
+}
+
+/* A PROPOS */
+.a-propos {
+  width: 80%;
+  font-size: 1.6rem;
+  margin: 70px auto 30px;
+  text-align: center;
+}
+
+.a-propos-texte {
+  width: 65%;
+  margin: 0 auto 70px;
+}
+
+.profile {
+  margin: 20px auto;
+  width: 15%;
+}
+
+/* EXEMPLES */
+/* Mise en forme */
+#exemples {
+  margin: 120px auto 80px;
+}
+
+.p-exemple {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  line-height: 2rem;
+  margin: 0 0 10px;
+}
+
+.t-exemple {
+  font-size: 1.7rem;
+  line-height: 2rem;
+  color: #F77E7C;
+}
+
+.bouton {
+  background-color: #148079;
+  display: inline-block;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Quicksand';
+  font-size: 16px;
+  font-weight: 300;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.bouton:hover {
+  background-color: #46b7b9;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.competences {
+  color: #00909E;
+  line-height: 1.5rem;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.real {
+  text-align: center !important;
+}
+
+.detail {
+  padding-right: 1%;
+}
+
+.carousel-inner {
+  width: 97%;
+  margin: 30px auto 0;
+}
+
+.carousel-item {
+  padding: 0 12%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  content: '>';
+  font-size: 55px;
+  color: #F77E7C;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #F77E7C;
+}
+
+/* ***  psy  *** */
+.x-psychologue {
+  width: 85%;
+  padding-top: 5%;
+}
+
+/* ***  soleil  *** */
+.p-soleil {
+  width: 85%;
+  padding-top: 5%;
+}
+
+/* ***  ateliers  *** */
+.a-ateliers {
+  width: 85%;
+  padding-top: 5%;
+}
+
+/* CONTACT */
+.contact {
+  width: 82%;
+  margin: 130px auto 100px auto;
+  line-height: 2.2rem;
+}
+
+.contact-texte {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.bouton-contact {
+  background-color: #F77E7C;
+  border-radius: 0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Quicksand';
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 15px;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.bouton-contact:hover {
+  background-color: #FFB0AC;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Quicksand';
+}
+
+.footer {
+  background-color: #46B7B9;
+}
+
+.footer-text {
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px;
+  color: #eefafa;
+  font-size: 0.9rem;
+}
