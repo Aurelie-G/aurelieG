@@ -7,6 +7,10 @@ body {
   font-weight: 400;
 }
 
+@media (max-width:600px) {
+  body {font-size: 3rem;}
+}
+
 
 /* HEADER */
 .header {
@@ -164,13 +168,13 @@ h3 {
 .carousel-control-next-icon:after {
   content: '>';
   font-size: 55px;
-  color: #F77E7C;
+  color: #e34b5d;
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 55px;
-  color: #F77E7C;
+  color: #e34b5d;
 }
 
 /* ***  psy  *** */
@@ -187,6 +191,12 @@ h3 {
 
 /* ***  ateliers  *** */
 .a-ateliers {
+  width: 85%;
+  padding-top: 5%;
+}
+
+/* ***  Kathya  *** */
+.k-psychologue {
   width: 85%;
   padding-top: 5%;
 }
